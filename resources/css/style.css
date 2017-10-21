@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /*align-items: center;*/
 }
 
 
@@ -95,12 +95,10 @@ span#header-textbox {
   padding-bottom: 5rem;
 
   background-color: green;
-  height: 50rem;
 }
 
 .services {
   height: 8rem;
-  padding-bottom: 3rem;
   dislay: flex;
   justify-content: space-around;
 
@@ -117,6 +115,34 @@ span#header-textbox {
 
 #service3 img {
   width: 5rem;
+}
+
+.textboxes {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.textbox {
+  width: 35%;
+}
+
+.between-textbox {
+  width: 5%;
+}
+
+.textbox h3 {
+  display: inline-block;
+  width: 10rem;
+  background-color: cadetblue;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  padding: 0.5rem 1.25rem;
+}
+
+.textbox p {
+  margin-top: 1rem;
 }
 
 /* *************** */
