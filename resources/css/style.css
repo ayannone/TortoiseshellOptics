@@ -17,6 +17,13 @@ body {
   align-items: center;
 }
 
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* ************** */
 /* common classes */
@@ -84,11 +91,33 @@ span#header-textbox {
 /* ************* */
 
 #main-content .container {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 
   background-color: green;
   height: 50rem;
 }
 
+.services {
+  height: 8rem;
+  padding-bottom: 3rem;
+  dislay: flex;
+  justify-content: space-around;
+
+  background-color: purple;
+}
+
+#service1 img {
+  width: 3.5rem;
+}
+
+#service2 img {
+  width: 5rem;
+}
+
+#service3 img {
+  width: 5rem;
+}
 
 /* *************** */
 /* Footer elements */
