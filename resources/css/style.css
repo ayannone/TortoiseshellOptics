@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /*align-items: center;*/
+  align-items: center;
 }
 
 
@@ -86,6 +86,7 @@ span#header-textbox {
   right: -2rem;
 }
 
+
 /* ************* */
 /* Main elements */
 /* ************* */
@@ -93,16 +94,16 @@ span#header-textbox {
 #main-content .container {
   padding-top: 3rem;
   padding-bottom: 5rem;
-
-  background-color: green;
 }
 
 .services {
   height: 8rem;
-  dislay: flex;
-  justify-content: space-around;
+  display: flex;
+  justify-content: center;
+}
 
-  background-color: purple;
+.between-service {
+  width: 6rem;
 }
 
 #service1 img {
@@ -144,6 +145,7 @@ span#header-textbox {
 .textbox p {
   margin-top: 1rem;
 }
+
 
 /* *************** */
 /* Footer elements */
