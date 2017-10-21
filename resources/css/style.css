@@ -154,6 +154,15 @@ span#header-textbox {
 
 footer .container {
 
-  background-color: yellow;
-  height: 30rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  margin: 4rem 0;
+}
+
+.footer .logo img {
+  height: 1.5rem;
+  padding-right: 1rem;
 }
