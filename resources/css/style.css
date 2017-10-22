@@ -97,11 +97,6 @@ span#header-textbox {
 /* Main elements */
 /* ************* */
 
-#main-content .container {
-  /*padding-top: 3rem;*/
-  /*padding-bottom: 5rem;*/
-}
-
 .services {
   padding-top: 3rem;
   min-height: 8rem;
@@ -162,10 +157,6 @@ span#header-textbox {
 /* *************** */
 /* Footer elements */
 /* *************** */
-
-footer .container {
-
-}
 
 .footer {
   display: flex;
@@ -290,10 +281,6 @@ footer .container {
     margin-bottom: 0;
   }
 
-  footer {
-
-  }
-
   .footer .logo {
     margin: 0 auto;
   }
@@ -301,6 +288,5 @@ footer .container {
   footer .logo span {
     display: none;
   }
-
 
 }
