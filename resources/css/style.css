@@ -74,6 +74,10 @@ header .container {
   color: white;
 }
 
+#nav-mobile {
+  display: none;
+}
+
 span#header-textbox {
   background-color: white;
   font-weight: bold;
@@ -92,12 +96,13 @@ span#header-textbox {
 /* ************* */
 
 #main-content .container {
-  padding-top: 3rem;
-  padding-bottom: 5rem;
+  /*padding-top: 3rem;*/
+  /*padding-bottom: 5rem;*/
 }
 
 .services {
-  height: 8rem;
+  padding-top: 3rem;
+  min-height: 8rem;
   display: flex;
   justify-content: center;
 }
@@ -119,7 +124,8 @@ span#header-textbox {
 }
 
 .textboxes {
-  margin-top: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
   display: flex;
   justify-content: center;
 }
@@ -166,15 +172,14 @@ footer .container {
   padding-right: 1rem;
 }
 
-/* ****************************************** */
-/* Styling for screens less than 1024px width */
-/* ****************************************** */
+/* ******************************************* */
+/* Styling for screens with max-width = 1024px */
+/* ******************************************* */
 
 @media only screen and (max-width: 1024px) {
 
   .container {
     width: 100%;
-    margin: 0 auto;
   }
 
   header {
@@ -192,5 +197,95 @@ footer .container {
     position: absolute;
     right: 2rem;
   }
+
+}
+
+
+/* ****************************************** */
+/* Styling for screens with max-width = 600px */
+/* ****************************************** */
+
+@media only screen and (max-width: 600px) {
+
+  .container {
+    width: 100%;
+  }
+
+  header {
+    height: 17rem;
+  }
+
+  #header-image {
+    background-position: 20%;
+  }
+
+  #nav-desktop {
+    display: none;
+  }
+
+  #nav-mobile {
+    display: inline-block;
+  }
+
+  span#header-textbox {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 9rem;
+    padding: 1rem 0;
+    width: 100%;
+    left: 0;
+  }
+
+  #main-content .container {
+    font-size: 0.77rem;
+  }
+
+  .services {
+    flex-direction: column;
+    padding-top: 3.77rem;
+  }
+
+  .between-service {
+    height: 1.54rem;
+  }
+
+  .textboxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.77rem;
+  }
+
+  .textbox {
+    width: 100%;
+  }
+
+  .textbox h3 {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .textbox p {
+    margin: 1rem 0.5rem 4rem;
+  }
+
+  .textboxes .textbox:last-of-type p {
+    margin-bottom: 0;
+  }
+
+  footer {
+
+  }
+
+  .footer .logo {
+    margin: 0 auto;
+  }
+
+  footer .logo span {
+    display: none;
+  }
+
 
 }
