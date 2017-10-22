@@ -8,6 +8,7 @@ body {
   line-height: 1.4rem;
 }
 
+
 /* *************** */
 /* flex containers */
 /* *************** */
@@ -21,8 +22,9 @@ body {
 .flexbox {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
 
 
@@ -123,6 +125,10 @@ span#header-textbox {
   width: 5rem;
 }
 
+#service3 span:last-of-type {
+  display: none;
+}
+
 .textboxes {
   padding-top: 3rem;
   padding-bottom: 5rem;
@@ -171,6 +177,7 @@ footer .container {
   height: 1.5rem;
   padding-right: 1rem;
 }
+
 
 /* ******************************************* */
 /* Styling for screens with max-width = 1024px */
@@ -247,6 +254,14 @@ footer .container {
 
   .between-service {
     height: 1.54rem;
+  }
+
+  #service3 span {
+    display: none;
+  }
+
+  #service3 span:last-of-type {
+    display: inline-block;
   }
 
   .textboxes {
